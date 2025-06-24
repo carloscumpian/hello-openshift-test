@@ -1,0 +1,89 @@
+Plugins:
+  - CodeScan 25.1.0 (codescan)
+  - CodeScan Lang 25.1.0 (codescanlang)
+  - YAML Analyzer 1.9.1 (yaml)
+Bundled analyzers:
+  - Text Code Quality and Security 2.20.1.5317 (textenterprise)
+  - Clean as You Code 2.4.0.2018 (cayc)
+  - JaCoCo 1.3.0.1538 (jacoco)
+  - IaC Code Quality and Security 1.41.1.14587 (iacenterprise)
+  - IaC Code Quality and Security 1.41.1.14587 (iac)
+Global server settings:
+  - provisioning.github.project.visibility.enabled=true
+  - sonar.abap.file.suffixes=.abap,.ab4,.flow,.asprog
+  - sonar.announcement.displayMessage=true
+  - sonar.announcement.message=We are deleting all of the Projects in an hour!!!
+  - sonar.apex.file.suffixes=.cls,.trigger
+  - sonar.auth.github.allowUsersToSignUp=true
+  - sonar.auth.github.apiUrl=https://github.ibm.com/api/v3/
+  - sonar.auth.github.appId=3952
+  - sonar.auth.github.enabled=true
+  - sonar.auth.github.groupsSync=false
+  - sonar.auth.github.organizations=
+  - sonar.auth.github.webUrl=https://github.ibm.com/
+  - sonar.autodetect.ai.code=false
+  - sonar.azureresourcemanager.file.suffixes=.bicep
+  - sonar.c.file.suffixes=.c,.h
+  - sonar.core.id=8022BF43-AZNAqgNZ5f5K1pCqVVHy
+  - sonar.core.serverBaseURL=https://sonarqube-int.apps.wdc-sonarqube-int.core.cirrus.ibm.com/
+  - sonar.core.startTime=2025-06-24T15:49:08+0000
+  - sonar.cpp.file.suffixes=.cc,.cpp,.cxx,.c++,.hh,.hpp,.hxx,.h++,.ipp,.ixx,.mxx,.cppm,.ccm,.cxxm,.c++m
+  - sonar.cs.file.suffixes=.cs,.razor
+  - sonar.css.file.suffixes=.css,.less,.scss,.sass
+  - sonar.dart.file.suffixes=.dart
+  - sonar.docker.file.patterns=Dockerfile,*.dockerfile
+  - sonar.flex.file.suffixes=as
+  - sonar.forceAuthentication=true
+  - sonar.go.file.suffixes=.go
+  - sonar.html.file.suffixes=.html,.xhtml,.cshtml,.vbhtml,.aspx,.ascx,.rhtml,.erb,.shtm,.shtml,.cmp,.twig
+  - sonar.ipynb.file.suffixes=ipynb
+  - sonar.java.file.suffixes=.java,.jav
+  - sonar.java.jvmframeworkconfig.file.patterns=**/src/main/resources/**/*app*.properties,**/src/main/resources/**/*app*.yaml,**/src/main/resources/**/*app*.yml
+  - sonar.javascript.file.suffixes=.js,.jsx,.cjs,.mjs,.vue
+  - sonar.jcl.file.suffixes=.jcl
+  - sonar.json.file.suffixes=.json
+  - sonar.jsp.file.suffixes=.jsp,.jspf,.jspx
+  - sonar.kotlin.file.suffixes=.kt,.kts
+  - sonar.lf.enableGravatar=true
+  - sonar.login.displayMessage=true
+  - sonar.login.message=== INT Instance **Currently testing plugins**,<h2>INT Instance **Currently testing plugins**</h2>
+  - sonar.multi-quality-mode.enabled=true
+  - sonar.objc.file.suffixes=.m
+  - sonar.php.file.suffixes=php,php3,php4,php5,phtml,inc
+  - sonar.pli.file.suffixes=.pli
+  - sonar.plsql.file.suffixes=sql,pks,pkb
+  - sonar.plugins.risk.consent=ACCEPTED
+  - sonar.python.file.suffixes=py
+  - sonar.qualityProfiles.allowDisableInheritedRules=false
+  - sonar.rpg.file.suffixes=.rpg,.rpgle,.sqlrpgle,.RPG,.RPGLE,.SQLRPGLE
+  - sonar.ruby.file.suffixes=.rb
+  - sonar.scala.file.suffixes=.scala
+  - sonar.swift.file.suffixes=.swift
+  - sonar.terraform.file.suffixes=.tf
+  - sonar.tsql.file.suffixes=.tsql
+  - sonar.typescript.file.suffixes=.ts,.tsx,.cts,.mts
+  - sonar.vb.file.suffixes=.bas,.frm,.ctl
+  - sonar.vbnet.file.suffixes=.vb
+  - sonar.xml.file.suffixes=.xml,.xsd,.xsl,.config
+  - sonar.yaml.file.suffixes=.yaml,.yml
+Project server settings:
+Project scanner properties:
+  - sonar.branch.name=main
+  - sonar.host.url=https://sonarqube-int.apps.wdc-sonarqube-int.core.cirrus.ibm.com
+  - sonar.projectBaseDir=/Users/carloscalebcumpian/GitHub/Public/hello-openshift-test
+  - sonar.projectKey=open-open
+  - sonar.projectName=hello-open/open
+  - sonar.scanner.apiBaseUrl=https://sonarqube-int.apps.wdc-sonarqube-int.core.cirrus.ibm.com/api/v2
+  - sonar.scanner.app=ScannerCLI
+  - sonar.scanner.appVersion=7.0.1.4817
+  - sonar.scanner.arch=x86_64
+  - sonar.scanner.bootstrapStartTime=1750788191725
+  - sonar.scanner.os=macos
+  - sonar.scanner.truststorePassword=changeit
+  - sonar.scanner.truststorePath=/Users/carloscalebcumpian/Downloads/sonar-scanner-7.0.1.4817-macosx-x64/jre/lib/security/cacerts
+  - sonar.scanner.wasEngineCacheHit=true
+  - sonar.scanner.wasJreCacheHit=HIT
+  - sonar.sources=.
+  - sonar.token=******
+  - sonar.verbose=true
+  - sonar.working.directory=/Users/carloscalebcumpian/GitHub/Public/hello-openshift-test/.scannerwork
