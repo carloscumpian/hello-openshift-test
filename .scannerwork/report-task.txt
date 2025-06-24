@@ -1,0 +1,7 @@
+projectKey=open-open
+serverUrl=https://sonarqube-int.apps.wdc-sonarqube-int.core.cirrus.ibm.com
+serverVersion=2025.1.2.108896
+branch=main
+dashboardUrl=https://sonarqube-int.apps.wdc-sonarqube-int.core.cirrus.ibm.com/dashboard?id=open-open&branch=main
+ceTaskId=fcd2a3b9-e528-4bcf-b6bd-5bc2886702f2
+ceTaskUrl=https://sonarqube-int.apps.wdc-sonarqube-int.core.cirrus.ibm.com/api/ce/task?id=fcd2a3b9-e528-4bcf-b6bd-5bc2886702f2
